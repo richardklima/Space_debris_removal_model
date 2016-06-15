@@ -8,7 +8,7 @@ This is a raw version with minimum of comments and rather unclear structure. The
 
 There is a break-up model (breakup.py) and collision model (cube_2agents.py) which is based on CUBE method for evaluating probability of collision of two objects.  
 
-You can run the model by running the main class cube_2agents.py. To run this model sucesfully you will need to install PyKEP scientific library available at https://esa.github.io/pykep/.  
+You can run the model by running the main class cube_2agents.py. To run this model successfully you will need to install PyKEP scientific library available at https://esa.github.io/pykep/.  
 
 
 The initial setting is:  
