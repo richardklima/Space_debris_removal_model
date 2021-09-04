@@ -150,7 +150,7 @@ def breakup(ep, p1, p2):
 
     # if the ratio is smaller than 40 J/g then it is non-catastrophic collision
     if catastrophRatio<40:
-        M = p2.mass*dv / 1000
+        M = p2.mass*dv / 1000.0
         Lc = np.linspace(LB, 1.)
         num = int(0.1 * M ** 0.75 * LB ** -1.71)
     else:
